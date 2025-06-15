@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jump Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { text-align: center; font-family: sans-serif; }
+    canvas { border: 2px solid black; margin: 20px auto; display: block; }
+    button { margin: 10px; padding: 10px 20px; }
+  </style>
+</head>
+<body>
+  <h1>Mini Jump Game</h1>
+  <button id="start1p">Chơi 1 người</button>
+  <button id="start2p">Chơi 2 người</button>
+  <br />
+  <input type="file" id="uploadImg" accept="image/*">
+  <br />
+  <canvas id="gameCanvas"></canvas>
+  <audio id="bgm" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" loop></audio>
+
+  <script src="game.js"></script>
+</body>
+</html>
